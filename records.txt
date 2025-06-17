@@ -1,0 +1,6 @@
+5/21 
+Getting the libraries setup (more complicated than I thought) 
+after that, we need an encoder for both proteins and GCN, we will mimick CAT-DTI here. 
+Professor told us that the goal is to get as high an accuracy as possible on the source for now. 
+
+Working through the notebook is easier for debugging purposes, if the code is good, we add it to the py files

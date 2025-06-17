@@ -1,0 +1,24 @@
+the dgl library (for graphing) is outdated?
+Regardless, dgllife needs rdkit and dgl
+
+
+DGL (Deep Graph Library): A flexible Python library for building and training graph neural networks (GNNs).
+DGL-LifeSci (dgllife): A DGL extension with prebuilt GNN models and utilities for drug discovery and molecular property prediction.
+RDKit: A powerful cheminformatics toolkit for manipulating, analyzing, and visualizing chemical structures.
+
+These are def needed 
+    "
+    pip install dgl
+    pip install rdkit
+    pip install dgllife
+    from dgllife.model.gnn import GCN
+    " 
+
+
+these might be needed, the environment is acting strange.. maybe we dont need them 
+    "
+    pip install torchdata==0.9.0
+    pip install torch-scatter torch-sparse -f https://data.pyg.org/whl/torch-2.5.1+cu124.html
+    pip install dgl==1.1.2
+    pip install torch==2.5.1 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124 
+    " 
